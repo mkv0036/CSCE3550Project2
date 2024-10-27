@@ -25,8 +25,9 @@ pip install -r requirements.txt
 Usage
 
 Start the server:
-
-
 python main.py
+
+Run test suite:
+pytest --cov=main test_server.py
 
 The server will now listen on http://localhost:8080 for incoming requests.
